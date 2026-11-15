@@ -1,0 +1,4 @@
+split,CCONJ,PART,total
+train,1352,217,1569
+dev,328,54,382
+test,269,79,348
