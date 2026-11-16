@@ -2,10 +2,11 @@
 
 Projektas tiria, kaip iš gretimų lietuviškų žodžių atskirti, kada „ir“ yra jungtukas (CCONJ), o kada dalelytė (PART).
 
-## ALKSNIS duomenys
+## Modelio mokymas
 
-Naudojamos originalios ALKSNIS r2.18 mokymo, validavimo ir testavimo dalys. Šaltinio aprašas bei licencija yra aplanke data. Duomenų kiekius galima perskaičiuoti su Python 3.12.
+Naudojama bazinė taisyklė „visada jungtukas“ ir logistinė regresija su vienu arba trimis žodžiais iš abiejų pusių. Modeliai mokomi su train, o ši komanda generuoja prognozes dev daliai. Naudojama Python 3.12.
 
 ```sh
-python prepare_data.py
+python -m pip install -r requirements.txt
+python model.py
 ```
